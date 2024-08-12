@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="genericutilities.ListenerImplimentation"></listener>
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestngImplementation.CreateAndDuplicateLeadTest"/>
+      <class name="TestngImplementation.CreateOrganizationTest"/>
+      <class name="TestngImplementation.CreateEventTest"/>
+      <class name="TestngImplementation.CreateContactWithExistingOrgTest"/>
+      <class name="TestngImplementation.CreateOrgWithTypeAndIndustryTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
